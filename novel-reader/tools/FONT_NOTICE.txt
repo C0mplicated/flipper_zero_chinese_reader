@@ -1,0 +1,16 @@
+Font: WenQuanYi Bitmap Song 9pt (native 12px), version 0.9.9.8.
+Copyright (C)2004-2010, WenQuanYi Project Board of Trustees and Qianqian Fang.
+Authors: WenQuanYi Contributors (complete credits in wenquanyi_9pt.bdf).
+License declared by source: GPL v2 with font embedding exception.
+GPL v2 license text: WQY-LICENSE.txt.
+No additional exception wording is invented or granted by this package.
+
+Source BDF, included unchanged:
+https://github.com/larryli/u8g2_wqy/blob/34d1bf7e054ef5a331c45248cd238edc49498897/bdf/wenquanyi_9pt.bdf
+
+font12.bin is a derived fixed-record serialization of the BDF glyphs.
+Pixel positions are mapped to 12x12 cells without resampling, with baseline 10.
+Small glyphs extending past that cell are shifted into it without scaling.
+ASCII uses the firmware font; non-BMP and oversized glyphs are omitted.
+The complete source BDF and generation script accompany the binary so it can
+be modified and regenerated. The font remains under its original license.

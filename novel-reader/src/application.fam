@@ -1,0 +1,12 @@
+App(
+    appid="novel_reader",
+    name="Novel Reader",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="novel_reader_app",
+    requires=["gui", "storage", "dialogs", "notification"],
+    stack_size=6144,
+    fap_category="Tools",
+    fap_version=(0, 4),
+    fap_icon="book.png",
+    fap_icon_assets="images",
+)
